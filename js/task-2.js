@@ -1,6 +1,6 @@
-/*"use strict";
+"use strict";
 function calcAverageCalories(days) {
-  if (!days || !Array.isArray(days)) {
+  if (days.length === 0) {
     return 0;
   }
   let totalCalories = 0;
@@ -35,4 +35,4 @@ console.log(
   ])
 ); // 2270
 
-console.log(calcAverageCalories([])); // 0*/
+console.log(calcAverageCalories([])); // 0
